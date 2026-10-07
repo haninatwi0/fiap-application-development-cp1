@@ -1,0 +1,144 @@
+/* Configuração geral */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+
+    padding: 30px;
+    border-bottom: 5px solid #ff69b4;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ff69b4;
+}
+
+
+/* Seções */
+
+section {
+    background-color: white;
+
+    width: 80%;
+    margin: 30px auto;
+
+    padding: 30px;
+
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    background-color: #ffe6f2;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+
+/* Imagem */
+
+#sobre img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    margin: 20px auto;
+
+    border: 4px solid #ff69b4;
+    border-radius: 10px;
+}
+
+
+/* Listas */
+
+ul,
+ol {
+    line-height: 2;
+}
+
+
+/* Tabela */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff69b4;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Links */
+
+a {
+    color: #d63384;
+}
+
+nav a {
+    color: white;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ff69b4;
+}
